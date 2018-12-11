@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  autoro.api:
+    image: autoro.api
+    build:
+      context: .
+      dockerfile: autoro.api/Dockerfile
